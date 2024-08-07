@@ -30,6 +30,15 @@ h1 {
     margin: 5px 0;
 }
 
+.contact-info a {
+    color: #fff; /* Ensures the email address is visible */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 a {
     color: #333;
 }
