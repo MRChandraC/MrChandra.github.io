@@ -2,102 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chandra Bukke | Software Engineer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Chandra Bukke - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Chandra Bukke</h1>
-            <p>Software Engineer</p>
-            <div class="contact-info">
-                <p>Email: <a href="mailto:mrchandra0409@gmail.com">mrchandra0409@gmail.com</a></p>
-                <p>Phone: 8185027553</p>
-                <p>Location: Whitefield</p>
-            </div>
-        </div>
+        <nav class="navbar">
+            <div class="logo">Chandra Bukke</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section class="education">
-        <div class="container">
-            <h2>Education</h2>
-            <p>KSRMCE Kadapa | B.Tech, 2018 - 2022 | CGPA: 8.5</p>
+    
+    <section id="profile" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Chandra Bukke</h1>
+            <p>Software Engineer</p>
+            <a href="assets/Resume_Chandra_Bukke.pdf" class="btn">Download CV</a>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
     </section>
 
-    <section class="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>TCS | Java Full Stack Developer</h3>
-                <p>2022 - 2024</p>
-                <ul>
-                    <li>Developed REST APIs and microservices using Spring Boot.</li>
-                    <li>Utilized Google Cloud Platform for scalable deployments.</li>
-                    <li>Optimized backend services for critical projects.</li>
-                    <li>Collaborated with cross-functional teams for seamless updates.</li>
-                    <li>Implemented Agile methodologies to enhance productivity.</li>
-                    <li>Led development initiatives for robust backend architecture.</li>
-                    <li>Resolved bugs to ensure reliability and performance.</li>
-                    <li>Enhanced application performance using Java Stream API and Collection frameworks.</li>
-                    <li>Managed database transactions with SQL queries.</li>
-                    <li>Maintained high code quality with 90% JUnit test coverage.</li>
-                </ul>
-            </div>
-        </div>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a software engineer with a passion for developing scalable solutions. I have expertise in Java Full Stack Development and experience with various technologies including GCP.</p>
     </section>
 
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Java Full Stack Developer</h3>
+            <p>TCS | 2022 - 2024</p>
             <ul>
-                <li>Programming Languages: Java, Python, C++, R, JavaScript</li>
-                <li>Frameworks: Spring Boot, Spring MVC, Hibernate</li>
-                <li>Tools/Platforms: Git, IntelliJ, Eclipse, SQL Workbench, GCP</li>
-                <li>Databases: SQL, MongoDB, Spanner, Redis, BigQuery</li>
+                <li>Developed REST APIs and microservices using Spring Boot.</li>
+                <li>Utilized GCP for managing and deploying applications.</li>
+                <li>Led development initiatives and collaborated with cross-functional teams.</li>
             </ul>
         </div>
     </section>
 
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <p>Australian Postal Services | Java, Spring Boot, GCP</p>
-            <ul>
-                <li>Developed and implemented REST APIs using Spring Boot.</li>
-                <li>Leveraged GCP for scalability and database management.</li>
-                <li>Optimized backend services and implemented synchronous and asynchronous APIs.</li>
-                <li>Ensured seamless system updates and high performance.</li>
-                <li>Maintained 90% code coverage with comprehensive JUnit test cases.</li>
-            </ul>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Australian Postal Services</h3>
+            <p>Developed and optimized REST APIs and microservices using Spring Boot and GCP.</p>
+            <a href="https://github.com/chandra-bukke/australian-postal-services" class="btn">View Project</a>
         </div>
     </section>
 
-    <section class="certifications">
-        <div class="container">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Associate Cloud Engineer - Google</li>
-                <li>Associate Cloud Developer - Google</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="awards">
-        <div class="container">
-            <h2>Honors & Awards</h2>
-            <ul>
-                <li>Star Of the Month in team</li>
-                <li>Emerging team player of the month</li>
-            </ul>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mrchandra0409@gmail.com">mrchandra0409@gmail.com</a></p>
+        <p>Phone: 8185027553</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/chandra-bukke/" class="social-link">LinkedIn</a>
+            <a href="https://github.com/chandra-bukke" class="social-link">GitHub</a>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Chandra Bukke. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Chandra Bukke. All rights reserved.</p>
     </footer>
 </body>
 </html>
